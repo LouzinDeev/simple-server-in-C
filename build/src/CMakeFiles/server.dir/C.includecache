@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/louzindeev/louzinlab/network/proj1/src/common.h
+stdio.h
+-
+stdlib.h
+-
+stdint.h
+-
+stdbool.h
+-
+pthread.h
+-
+sys/socket.h
+-
+sys/types.h
+-
+unistd.h
+-
+netdb.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+string.h
+-
+error.h
+-
+
+/home/louzindeev/louzinlab/network/proj1/src/server.c
+server.h
+/home/louzindeev/louzinlab/network/proj1/src/server.h
+
+/home/louzindeev/louzinlab/network/proj1/src/server.h
+common.h
+/home/louzindeev/louzinlab/network/proj1/src/common.h
+
